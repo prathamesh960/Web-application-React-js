@@ -115,8 +115,8 @@ const Task = () => {
         <Plot
           data={[
             {
-              x: checkRow.map((id) => data.find((row) => row.id === id).title), // Change 'name' to 'title'
-              y: checkRow.map((id) => data.find((row) => row.id === id).id), // Change 'value1' to 'id'
+              x: checkRow.map((id) => data.find((row) => row.id === id).title), 
+              y: checkRow.map((id) => data.find((row) => row.id === id).id), 
               type: 'bar',
             },
           ]}
